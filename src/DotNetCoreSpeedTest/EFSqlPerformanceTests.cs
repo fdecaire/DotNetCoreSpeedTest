@@ -14,8 +14,6 @@ namespace FirstDotNetConsoleApp
 		public EfsqlPerformanceTests()
 		{
 			File.Delete(@"c:\sqlserverresults.txt");
-
-			InitializeData();
 		}
 
 		public void InitializeData()
@@ -33,7 +31,7 @@ namespace FirstDotNetConsoleApp
 				db.SaveChanges();
 
 				// insert one department
-				var myDepartment = new Department()
+				var myDepartment = new Department
 				{
 					name = "Operations"
 				};
@@ -51,6 +49,7 @@ namespace FirstDotNetConsoleApp
 			double smallest = -1;
 			for (int i = 0; i < 5; i++)
 			{
+				InitializeData();
 				double result = TestInsert();
 
 				if (smallest < 0)
@@ -71,6 +70,9 @@ namespace FirstDotNetConsoleApp
 			smallest = -1;
 			for (int i = 0; i < 5; i++)
 			{
+				InitializeData();
+				TestInsert();
+
 				double result = TestUpdate();
 
 				if (smallest < 0)
@@ -91,6 +93,9 @@ namespace FirstDotNetConsoleApp
 			smallest = -1;
 			for (int i = 0; i < 5; i++)
 			{
+				InitializeData();
+				TestInsert();
+
 				double result = TestSelect();
 
 				if (smallest < 0)
@@ -111,6 +116,9 @@ namespace FirstDotNetConsoleApp
 			smallest = -1;
 			for (int i = 0; i < 5; i++)
 			{
+				InitializeData();
+				TestInsert();
+
 				double result = TestDelete();
 
 				if (smallest < 0)
@@ -154,13 +162,13 @@ namespace FirstDotNetConsoleApp
 						lastnames.Add(line);
 				}
 
-				//test inserting 1000 records
+				//test inserting 10000 records (only ~1,000 names in text)
 				var startTime = DateTime.Now;
 				for (int j = 0; j < 10; j++)
 				{
 					for (int i = 0; i < 1000; i++)
 					{
-						var personRecord = new Person()
+						var personRecord = new Person
 						{
 							first = firstnames[i],
 							last = lastnames[i],
@@ -189,7 +197,7 @@ namespace FirstDotNetConsoleApp
 				{
 					var query = (from p in db.Persons
 								 join d in db.Departments on p.department equals d.id
-								 select p);
+								 select p).ToList();
 				}
 				var elapsedTime = DateTime.Now - startTime;
 
@@ -232,7 +240,7 @@ namespace FirstDotNetConsoleApp
 
 		public void WriteLine(string text)
 		{
-			using (var fs = new FileStream(@"c:\sqlserverresults.txt", FileMode.Append, FileAccess.Write))
+			using (var fs = new FileStream(@"c:\dotnet_speed_tests.txt", FileMode.Append, FileAccess.Write))
 			using (var writer = new StreamWriter(fs))
 			{
 				writer.WriteLine(text);
