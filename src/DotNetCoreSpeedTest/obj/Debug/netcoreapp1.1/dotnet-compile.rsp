@@ -1,8 +1,8 @@
---temp-output:C:\Users\fdecaire\Documents\Visual Studio 2015\Projects\DotNetCoreSpeedTest\src\DotNetCoreSpeedTest\obj\Debug\netcoreapp1.0\
---out:C:\Users\fdecaire\Documents\Visual Studio 2015\Projects\DotNetCoreSpeedTest\src\DotNetCoreSpeedTest\bin\Debug\netcoreapp1.0\DotNetCoreSpeedTest.dll
+--temp-output:C:\Users\fdecaire\Documents\Visual Studio 2015\Projects\DotNetCoreSpeedTest\src\DotNetCoreSpeedTest\obj\Debug\netcoreapp1.1\
+--out:C:\Users\fdecaire\Documents\Visual Studio 2015\Projects\DotNetCoreSpeedTest\src\DotNetCoreSpeedTest\bin\Debug\netcoreapp1.1\DotNetCoreSpeedTest.dll
 --define:DEBUG
 --define:TRACE
---define:NETCOREAPP1_0
+--define:NETCOREAPP1_1
 --suppress-warning:CS1701
 --suppress-warning:CS1702
 --suppress-warning:CS1705
@@ -12,7 +12,7 @@
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0
---target-framework:.NETCoreApp,Version=v1.0
+--target-framework:.NETCoreApp,Version=v1.1
 --reference:C:\Users\fdecaire\.nuget\packages\Microsoft.AspNetCore.Hosting.Abstractions\1.1.1\lib\netstandard1.3\Microsoft.AspNetCore.Hosting.Abstractions.dll
 --reference:C:\Users\fdecaire\.nuget\packages\Microsoft.AspNetCore.Hosting.Server.Abstractions\1.1.1\lib\netstandard1.3\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
 --reference:C:\Users\fdecaire\.nuget\packages\Microsoft.AspNetCore.Http.Abstractions\1.1.1\lib\netstandard1.3\Microsoft.AspNetCore.Http.Abstractions.dll
@@ -33,7 +33,7 @@
 --reference:C:\Users\fdecaire\.nuget\packages\Microsoft.Extensions.Logging.Abstractions\1.1.1\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll
 --reference:C:\Users\fdecaire\.nuget\packages\Microsoft.Extensions.Options\1.1.1\lib\netstandard1.0\Microsoft.Extensions.Options.dll
 --reference:C:\Users\fdecaire\.nuget\packages\Microsoft.Extensions.Primitives\1.1.0\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll
---reference:C:\Users\fdecaire\.nuget\packages\Microsoft.VisualBasic\10.0.1\ref\netstandard1.1\Microsoft.VisualBasic.dll
+--reference:C:\Users\fdecaire\.nuget\packages\Microsoft.VisualBasic\10.1.0\ref\netstandard1.1\Microsoft.VisualBasic.dll
 --reference:C:\Users\fdecaire\.nuget\packages\Microsoft.Win32.Primitives\4.3.0\ref\netstandard1.3\Microsoft.Win32.Primitives.dll
 --reference:C:\Users\fdecaire\.nuget\packages\Remotion.Linq\2.1.1\lib\netstandard1.0\Remotion.Linq.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.AppContext\4.3.0\ref\netstandard1.6\System.AppContext.dll
@@ -49,7 +49,7 @@
 --reference:C:\Users\fdecaire\.nuget\packages\System.Data.SqlClient\4.3.0\ref\netstandard1.3\System.Data.SqlClient.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Diagnostics.Debug\4.3.0\ref\netstandard1.3\System.Diagnostics.Debug.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Diagnostics.DiagnosticSource\4.3.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.Diagnostics.Process\4.1.0\ref\netstandard1.4\System.Diagnostics.Process.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.Diagnostics.Process\4.3.0\ref\netstandard1.4\System.Diagnostics.Process.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Diagnostics.Tools\4.3.0\ref\netstandard1.0\System.Diagnostics.Tools.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Diagnostics.Tracing\4.3.0\ref\netstandard1.5\System.Diagnostics.Tracing.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Dynamic.Runtime\4.3.0\ref\netstandard1.3\System.Dynamic.Runtime.dll
@@ -62,36 +62,36 @@
 --reference:C:\Users\fdecaire\.nuget\packages\System.IO.Compression.ZipFile\4.3.0\ref\netstandard1.3\System.IO.Compression.ZipFile.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.IO.FileSystem\4.3.0\ref\netstandard1.3\System.IO.FileSystem.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.IO.FileSystem.Primitives\4.3.0\ref\netstandard1.3\System.IO.FileSystem.Primitives.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.IO.FileSystem.Watcher\4.0.0\ref\netstandard1.3\System.IO.FileSystem.Watcher.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.IO.MemoryMappedFiles\4.0.0\ref\netstandard1.3\System.IO.MemoryMappedFiles.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.IO.UnmanagedMemoryStream\4.0.1\ref\netstandard1.3\System.IO.UnmanagedMemoryStream.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.IO.FileSystem.Watcher\4.3.0\ref\netstandard1.3\System.IO.FileSystem.Watcher.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.IO.MemoryMappedFiles\4.3.0\ref\netstandard1.3\System.IO.MemoryMappedFiles.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.IO.UnmanagedMemoryStream\4.3.0\ref\netstandard1.3\System.IO.UnmanagedMemoryStream.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Linq\4.3.0\ref\netstandard1.6\System.Linq.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Linq.Expressions\4.3.0\ref\netstandard1.6\System.Linq.Expressions.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.Linq.Parallel\4.0.1\ref\netstandard1.1\System.Linq.Parallel.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.Linq.Parallel\4.3.0\ref\netstandard1.1\System.Linq.Parallel.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Linq.Queryable\4.3.0\ref\netstandard1.0\System.Linq.Queryable.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Net.Http\4.3.0\ref\netstandard1.3\System.Net.Http.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Net.NameResolution\4.3.0\ref\netstandard1.3\System.Net.NameResolution.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Net.Primitives\4.3.0\ref\netstandard1.3\System.Net.Primitives.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.Net.Requests\4.0.11\ref\netstandard1.3\System.Net.Requests.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.Net.Requests\4.3.0\ref\netstandard1.3\System.Net.Requests.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Net.Security\4.3.0\ref\netstandard1.3\System.Net.Security.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Net.Sockets\4.3.0\ref\netstandard1.3\System.Net.Sockets.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.Net.WebHeaderCollection\4.0.1\ref\netstandard1.3\System.Net.WebHeaderCollection.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.Net.WebHeaderCollection\4.3.0\ref\netstandard1.3\System.Net.WebHeaderCollection.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Net.WebSockets\4.3.0\ref\netstandard1.3\System.Net.WebSockets.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.Numerics.Vectors\4.1.1\ref\netstandard1.0\System.Numerics.Vectors.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.Numerics.Vectors\4.3.0\ref\netstandard1.0\System.Numerics.Vectors.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.ObjectModel\4.3.0\ref\netstandard1.3\System.ObjectModel.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Reflection\4.3.0\ref\netstandard1.5\System.Reflection.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.Reflection.DispatchProxy\4.0.1\ref\netstandard1.3\System.Reflection.DispatchProxy.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.Reflection.DispatchProxy\4.3.0\ref\netstandard1.3\System.Reflection.DispatchProxy.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Reflection.Extensions\4.3.0\ref\netstandard1.0\System.Reflection.Extensions.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.Reflection.Metadata\1.3.0\lib\netstandard1.1\System.Reflection.Metadata.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.Reflection.Metadata\1.4.1\lib\netstandard1.1\System.Reflection.Metadata.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Reflection.Primitives\4.3.0\ref\netstandard1.0\System.Reflection.Primitives.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Reflection.TypeExtensions\4.3.0\ref\netstandard1.5\System.Reflection.TypeExtensions.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.Resources.Reader\4.0.0\lib\netstandard1.0\System.Resources.Reader.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.Resources.Reader\4.3.0\lib\netstandard1.0\System.Resources.Reader.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Resources.ResourceManager\4.3.0\ref\netstandard1.0\System.Resources.ResourceManager.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Runtime\4.3.0\ref\netstandard1.5\System.Runtime.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Runtime.CompilerServices.Unsafe\4.3.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Runtime.Extensions\4.3.0\ref\netstandard1.5\System.Runtime.Extensions.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Runtime.Handles\4.3.0\ref\netstandard1.3\System.Runtime.Handles.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.Runtime.InteropServices\4.3.0\ref\netstandard1.5\System.Runtime.InteropServices.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.Runtime.InteropServices\4.3.0\ref\netcoreapp1.1\System.Runtime.InteropServices.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Runtime.InteropServices.RuntimeInformation\4.3.0\ref\netstandard1.1\System.Runtime.InteropServices.RuntimeInformation.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Runtime.Numerics\4.3.0\ref\netstandard1.1\System.Runtime.Numerics.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Security.Claims\4.3.0\ref\netstandard1.3\System.Security.Claims.dll
@@ -103,12 +103,12 @@
 --reference:C:\Users\fdecaire\.nuget\packages\System.Text.Encoding\4.3.0\ref\netstandard1.3\System.Text.Encoding.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Text.Encoding.Extensions\4.3.0\ref\netstandard1.3\System.Text.Encoding.Extensions.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Text.Encodings.Web\4.3.0\lib\netstandard1.0\System.Text.Encodings.Web.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.Text.RegularExpressions\4.3.0\ref\netstandard1.6\System.Text.RegularExpressions.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.Text.RegularExpressions\4.3.0\ref\netcoreapp1.1\System.Text.RegularExpressions.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Threading\4.3.0\ref\netstandard1.3\System.Threading.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Threading.Tasks\4.3.0\ref\netstandard1.3\System.Threading.Tasks.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.Threading.Tasks.Dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.Threading.Tasks.Dataflow\4.7.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Threading.Tasks.Extensions\4.3.0\lib\netstandard1.0\System.Threading.Tasks.Extensions.dll
---reference:C:\Users\fdecaire\.nuget\packages\System.Threading.Tasks.Parallel\4.0.1\ref\netstandard1.1\System.Threading.Tasks.Parallel.dll
+--reference:C:\Users\fdecaire\.nuget\packages\System.Threading.Tasks.Parallel\4.3.0\ref\netstandard1.1\System.Threading.Tasks.Parallel.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Threading.Thread\4.3.0\ref\netstandard1.3\System.Threading.Thread.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Threading.ThreadPool\4.3.0\ref\netstandard1.3\System.Threading.ThreadPool.dll
 --reference:C:\Users\fdecaire\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll

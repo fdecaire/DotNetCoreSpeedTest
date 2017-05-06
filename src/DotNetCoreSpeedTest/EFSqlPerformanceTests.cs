@@ -13,7 +13,7 @@ namespace FirstDotNetConsoleApp
 
 		public EfsqlPerformanceTests()
 		{
-			File.Delete(@"c:\sqlserverresults.txt");
+			File.Delete(@"c:\dotnet_speed_tests.txt");
 		}
 
 		public void InitializeData()

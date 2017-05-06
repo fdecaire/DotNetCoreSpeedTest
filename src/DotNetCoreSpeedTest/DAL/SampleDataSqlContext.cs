@@ -23,7 +23,7 @@ namespace FirstDotNetConsoleApp.DAL
 			if (!optionsBuilder.IsConfigured)
 			{
 				optionsBuilder.UseSqlServer(
-					@"Data Source=localhost;Initial Catalog=sampledata;Integrated Security=True;MultipleActiveResultSets=True");
+					@"Data Source=DECAIREPC;Initial Catalog=sampledata;Integrated Security=True;MultipleActiveResultSets=True");
 			}
 		}
 

@@ -5,6 +5,7 @@
         public static void Main(string[] args)
         {
 			var efsqlTests = new EfsqlPerformanceTests();
+			efsqlTests.InitializeData();
 			efsqlTests.RunAllTests();
 		}
 	}
